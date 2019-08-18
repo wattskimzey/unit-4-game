@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+
+<!--styles-->
+<link rel="stylesheet" type="text.css" href="../assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+ <!--scripts-->
+ <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header class="header"><h1>The Amazing Crystal Collector. It's AMAZING!</h1></header>
+
+    <main>
+
+    <div class="instructions">
+
+        <h2>WAT DO:</h2>
+        <p>You will see an amazing random number below.  </p>
+        <p>
+            Below that are four crystals.  Each has a random value. 
+            Your mission is to click the crystals and match the random number.
+        </p>
+        <p>
+            If you match it - yay, you win and fate smiles upon you.
+            If you don't match it, well, you suck.
+        </p>
+        <p>
+            You must click each crystal once in order to find its value. 
+        </p>
+        <p>
+            And just to make it frustrating... 
+            the value of the crystals change on each game. LOL ᕕ( ᐛ )ᕗ
+        </p>
+    </div>
+
+    <div class="random-number" id="randNum"></div>
+
+    <div class="crystal-array" id="crysArray">
+        <button id="amethyst" class="jewel amethyst"><img src="#" alt=""></button>
+        <button id="emld" class="jewel emld"><img src="#" alt=""></button>
+        <button id="ruby" class="jewel ruby"><img src="#" alt=""></button>
+        <button id="sapphire" class="jewel sapphire"><img src="#" alt=""></button>
+    </div>
+
+    <div class="total-score">
+        <div>SURVEY SAYS!</div>
+        <br>
+        <div id="totScore">0</div>
+    </div>
+
+        <div class="wins-loses">
+            <p>Arrrr Ye Have Made This Many Wins Matey:</p>
+            <p id="wins">0</p>
+            <p>Arrrr Ye Be Losin' This Many Times, Landlubber:</p>
+            <p id="losses">0</p>
+        </div>
+
+    </main>
+
+    <footer class="footer">&copy; 2019 ARRR MATEY PRODUCTIONS</footer>
+
+<script type="text/javascript" src="./Assets/javascript/game.js"></script>
+
+</body>
+</html>
